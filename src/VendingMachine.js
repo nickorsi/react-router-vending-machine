@@ -15,16 +15,13 @@ import NavBar from './NavBar';
  * App -> VendingMachine -> {Soda, Cookies, Chips}
  */
 
-function VendingMachine () {
+function VendingMachine() {
   return (
     <div className='VendingMachine'>
-      <BrowserRouter>
-        <img className='VendingMachine-img'></img>
-        <NavBar />
-        <RoutesList />
-      </BrowserRouter>
+      <img className='VendingMachine-img'></img>
+      <NavBar />
     </div>
-  )
+  );
 }
 
 export default VendingMachine;

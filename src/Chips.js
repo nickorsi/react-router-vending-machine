@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 
 
 /**
@@ -17,8 +19,11 @@ function Chips() {
   return (
     <div className="Chips">
       <h1>CHIPPPPPPSSSS!!!!!</h1>
+      <Link to='/'>Go Back</Link>
     </div>
   )
 }
 
 export default Chips;
+
+

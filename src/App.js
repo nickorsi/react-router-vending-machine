@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import VendingMachine from './VendingMachine';
+import { BrowserRouter } from 'react-router-dom';
+import RoutesList from './RoutesList';
 
 function App() {
   return (
     <div className="App">
-      <VendingMachine />
+      <BrowserRouter>
+        <RoutesList />
+      </BrowserRouter>
     </div>
   );
 }
