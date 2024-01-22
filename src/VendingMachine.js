@@ -12,9 +12,7 @@ const VENDING_IMGAGE =
 
 
 /**
- * VendingMachine component renders a vending machine and BrowserRoutes tag
- * to render componenets based on the user interaction with links.
- *
+ * VendingMachine component nav bar
  * Props:
  * -None
  *

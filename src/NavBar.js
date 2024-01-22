@@ -14,6 +14,8 @@ import './NavBar.css'
  * VendingMachine -> NavBar
 */
 
+//TODO: look into navlink
+
 function NavBar () {
   return (
     <div className="NavBar">

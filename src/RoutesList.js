@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import VendingMachine from './VendingMachine';
 import Soda from './Soda';
 import Cookies from './Cookies';
@@ -15,7 +15,7 @@ import Chips from './Chips';
  * State:
  * -None
  *
- * VendingMachine -> RoutesList -> {Soda, Cookies, Chips}
+ * App -> RoutesList -> {Soda, Cookies, Chips}
 */
 
 function RoutesList() {
@@ -25,6 +25,7 @@ function RoutesList() {
       <Route path="/chips" element={<Chips />} />
       <Route path='/soda' element={<Soda />} />
       <Route path = '/cookies' element={<Cookies />} />
+      <Route path='*' element={<VendingMachine />} />
     </Routes>
   );
 }
