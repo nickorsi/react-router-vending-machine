@@ -1,0 +1,14 @@
+.NavBar {
+  background-color: rgba(5,5,5,0.35);
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.NavBar-link {
+  font-size: larger;
+}

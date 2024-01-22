@@ -1,0 +1,9 @@
+.VendingMachine {
+  display: flex;
+  flex-direction: columns;
+  justify-content: space-around;
+}
+
+.VendingMachine-img {
+  height: 500px;
+}

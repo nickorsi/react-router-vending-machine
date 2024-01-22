@@ -2,9 +2,12 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 
-
+const CHIPS_IMAGE =
+  `https://plus.unsplash.com/premium_photo-1672774750509-bc9ff226f3e8?q=80&w=25
+  74&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8f
+  GVufDB8fHx8fA%3D%3D`
 /**
- * Chips a page displaying an image of a chip bag and a link to return home.
+ * Chips component renders an image of a chip bag and a link to return home.
  *
  * Props:
  * -None
@@ -18,8 +21,12 @@ import {Link} from 'react-router-dom';
 function Chips() {
   return (
     <div className="Chips">
-      <h1>CHIPPPPPPSSSS!!!!!</h1>
-      <Link to='/'>Go Back</Link>
+      <img className='Chips-image' src={CHIPS_IMAGE} alt='british chips image'></img>
+      <div className="Chips-container">
+        <h1 className='Chips-title'>CHIPPPPPPSSSS!!!!!</h1>
+        <Link to='/'>Go Back</Link>
+      </div>
+      <img className='Chips-image' src={CHIPS_IMAGE} alt='british chips image'></img>
     </div>
   )
 }
